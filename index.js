@@ -12,3 +12,6 @@ class Driver {
   };
 
 }
+
+driver = new Driver("Alfie", "Aug 9, 1995");
+console.log(driver.startDate);
