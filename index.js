@@ -19,6 +19,11 @@ class Route {
     let horizDistance = Math.abs(eastWest.indexOf(this.endingLocation.horizontal)-eastWest.indexOf(this.beginningLocation.horizontal));
     return vertDistance + horizDistance;
   }
+  estimatedTime(peak = false) {
+    if (peak === false) {
+      
+    }
+  }
 }
 
 let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
