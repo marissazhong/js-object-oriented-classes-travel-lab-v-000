@@ -17,6 +17,7 @@ class Route {
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue'];
     vertDistance = Math.abs(this.endingLocation.vertical-this.beginningLocation.vertical)
     horizDistance = Math.abs(eastWest.findIndex(this.endingLocation.horizontal)-eastWest.findIndex(this.beginningLocation.horizontal));
+    return vertDistance + horizDistance;
   }
 }
 
