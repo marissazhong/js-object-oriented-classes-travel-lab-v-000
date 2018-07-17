@@ -5,8 +5,6 @@ class Driver {
   }
   startDate() {
     this.startDate = new Date(this.date);
-    console.log(typeof this.startDate);
-    //return ;
   };
   yearsExperienceFromBeginningOf(year) {
     //return year-this.startDate().getFullYear();
