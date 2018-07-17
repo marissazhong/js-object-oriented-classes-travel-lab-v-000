@@ -29,4 +29,4 @@ class Route {
 }
 
 let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
-console.log(route.estimatedTime());
+console.log(route.estimatedTime(false));
