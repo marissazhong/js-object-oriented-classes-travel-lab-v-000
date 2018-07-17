@@ -19,6 +19,5 @@ class Route {
   }
 }
 
-driver = new Driver("Alfie", "Aug 9, 1995");
-console.log(driver.startDate());
-//console.log(driver.yearsExperienceFromBeginningOf(2017));
+let route = new Route({horizontal: 'Park', vertical: '34'}, {horizontal: 'Park', vertical: '45'})
+console.log(route.blocksTravelled());
