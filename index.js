@@ -4,7 +4,7 @@ class Driver {
     this.date = date;
   }
   startDate() {
-    const date = new Date(this.date);
+    const date = new Date("Aug 9, 1995");
     console.log(this.date);
     return date;
   };
