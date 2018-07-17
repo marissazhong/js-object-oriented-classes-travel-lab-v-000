@@ -4,7 +4,7 @@ class Driver {
     this.date = date;
   }
   startDate() {
-    let date = new Date(this.date);
+    const date = new Date(this.date);
     return date;
   };
   yearsExperienceFromBeginningOf(year) {
